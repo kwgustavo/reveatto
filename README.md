@@ -1,5 +1,7 @@
 # GlassBox-Go
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Drop-in Go middleware that fingerprints every visitor to a Go web application,
 deduplicates them into stable **BrowserIDs**, and lets you find similar browsers
 using a weighted combination of (a) 40-d Euclidean distance on a numeric
@@ -211,3 +213,7 @@ gbquery -db visits.db schema
   without opening multiple real browsers
 - ships a `/seed` page that inserts 6 hand-crafted distinct profiles into
   the database for testing
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 — see the [LICENSE](LICENSE) file for details.
