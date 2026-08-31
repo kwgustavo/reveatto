@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GlassBox-Go demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <h1>Hello, GlassBox</h1>
+  <p>Open this page in a browser. GlassBox-Go auto-injects a probe runner
+     on the fly and posts the resulting fingerprint over WebSocket.</p>
+  <p>This file is served unchanged. Take a look at
+     <code>/home/zed/pro/Ycombinator/browsertracking/glassbox/glassbox-go/example/index.html</code>
+     — there is no <code>&lt;script src="/__glassbox/probes.js"&gt;</code>
+     in the source. The middleware adds it for you.</p>
+  <hr>
+  <p>Open DevTools → Network → WS to inspect the payload that arrives
+     at <code>/__glassbox/ws</code>.</p>
+</body>
+</html>
